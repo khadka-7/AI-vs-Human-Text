@@ -1,0 +1,13 @@
+def predict_text(text):
+    processed_text = remove_punc(text)
+    tokenized_text = sentence_vectorizer([processed_text]).numpy()
+    prediction = model.predict(tokenized_text)[0][0]
+    return prediction
+
+while True:
+    user_input = input("Enter text to predict (type 'exit' to quit): ")
+    if user_input.lower() == 'exit':
+        break
+    else:
+        prediction = predict_text(user_input)
+        print("Prediction:", prediction)
