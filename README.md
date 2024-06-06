@@ -8,10 +8,10 @@ Here are the key features of this project:
 
 Data Preprocessing: We've got functions that clean up the text data, getting rid of unwanted stuff like newline characters and punctuation. Gotta keep things neat and tidy!
 
-Model Training: We'll walk you through the process of training a neural network model using TensorFlow. It's pretty nifty, trust us.
+Model Training: We'll walk you through the process of training a neural network model using TensorFlow. It's pretty nifty, trust me.
 
-Model Evaluation: We'll show you how to check how well our model is performing on a test dataset. Gotta make sure it's doing its job!
+Model Evaluation: I'll show you how to check how well our model is performing on a test dataset. Gotta make sure it's doing its job!
 
-Interactive Predictions: We've even got a script that lets you make real-time predictions on your own text. How cool is that?
+Interactive Predictions: I've even got a script that lets you make real-time predictions on your own text. How cool is that?
 
 So, this combination of system and user prompts is designed to help our assistant become even better at refining text to sound more human-like. But don't worry, we're sticking to the original intent and making sure all the facts are correct.
